@@ -1,0 +1,44 @@
+﻿<!doctype html>
+<html>
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+
+</head>
+<body ng-app="phoneApp">
+    <div ng-controller="phoneController">
+        <label>Номер телефона:</label>
+        <input type="text" ng-model="phone" placeholder="Введите номер телефона">
+        <hr>
+        <button ng-click="check()">Проверить</button>
+        <br />
+        <label style="color:red">{{result}}</label>
+    </div>
+    <script type="text/javascript">
+        angular.module('phoneApp', [])
+            .controller('phoneController', function ($scope) {
+                $scope.phone = '';
+                $scope.result = '';
+                $scope.check = function () {
+                    var result = "ДА";
+                    if ($scope.phone.length < 10 || $scope.phone.length > 10) {
+                        result = "НЕТ";
+                    }
+                    else if ($scope.phone[0] == '0') {
+                        result = "НЕТ";
+                    }
+                    else {
+                        for (var i = 0; i < $scope.phone.length; ++i) {
+                            if ($scope.phone[i] < '0' || $scope.phone[i] > '9') {
+                                result = "НЕТ";
+                            }
+                        }
+                    }
+
+                    $scope.result = result;
+                }
+
+               });
+    </script>
+</body>
+
+</html>

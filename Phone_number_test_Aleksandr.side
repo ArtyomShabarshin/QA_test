@@ -1635,6 +1635,192 @@
       ],
       "value": "НЕТ"
     }]
+  }, {
+    "id": "b05ba431-ce2f-48b0-b6e6-4ce7a6c11572",
+    "name": "operator1",
+    "commands": [{
+      "id": "ff997c9c-fc75-42a2-b25b-fd7037149039",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "163a61ea-734d-4528-999f-e8ccca3cb903",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1536x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "66350d0f-398d-4383-b3b3-b6b96d4b41fe",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-pristine",
+      "targets": [
+        ["css=.ng-pristine", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "64671273-cbe9-4d9d-b66d-5fb5849cb04e",
+      "comment": "",
+      "command": "type",
+      "target": "css=.ng-untouched",
+      "targets": [
+        ["css=.ng-untouched", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "1111111111"
+    }, {
+      "id": "2a35a4bc-617b-400d-89b8-aadc9e27c707",
+      "comment": "",
+      "command": "click",
+      "target": "css=button",
+      "targets": [
+        ["css=button", "css:finder"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Проверить')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "478eb31c-dd6d-4617-a457-2fc40db59825",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.ng-binding:nth-child(10)",
+      "targets": [
+        ["css=.ng-binding:nth-child(10)", "css:finder"],
+        ["xpath=//label[4]", "xpath:position"],
+        ["xpath=//label[contains(.,'1')]", "xpath:innerText"]
+      ],
+      "value": "1"
+    }]
+  }, {
+    "id": "8c2c057e-a58f-4a34-9a4d-251b70637e1f",
+    "name": "operator2",
+    "commands": [{
+      "id": "31140677-9e79-457f-b00c-952260363e8b",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5b8dcec0-42da-4d64-9a35-73781ac9576b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1536x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "52a67da3-7738-47d3-9df4-35bb8efa196d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-pristine",
+      "targets": [
+        ["css=.ng-pristine", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "aaad054a-87e5-4bb2-accc-fc11c54556d0",
+      "comment": "",
+      "command": "type",
+      "target": "css=.ng-untouched",
+      "targets": [
+        ["css=.ng-untouched", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "2222222222"
+    }, {
+      "id": "3013600c-e415-46e0-83c8-d1344c5fa1c4",
+      "comment": "",
+      "command": "click",
+      "target": "css=button",
+      "targets": [
+        ["css=button", "css:finder"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Проверить')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3d931980-3b51-4ad9-9917-26204884b6d1",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.ng-binding:nth-child(10)",
+      "targets": [
+        ["css=.ng-binding:nth-child(10)", "css:finder"],
+        ["xpath=//label[4]", "xpath:position"],
+        ["xpath=//label[contains(.,'2')]", "xpath:innerText"]
+      ],
+      "value": "2"
+    }]
+  }, {
+    "id": "0731540a-5d31-4d10-b4c9-bac9fcebdd52",
+    "name": "operator3",
+    "commands": [{
+      "id": "a833f904-747e-460e-8975-e9f40b1877d0",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "806e6ed6-a5fd-412a-a9d8-523252f6cfb0",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1536x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "51db58fe-b0b8-42bb-bc81-fe78708400ce",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-pristine",
+      "targets": [
+        ["css=.ng-pristine", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1d4c8ad0-eb88-4ea4-b790-467b34cd56e2",
+      "comment": "",
+      "command": "type",
+      "target": "css=.ng-untouched",
+      "targets": [
+        ["css=.ng-untouched", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "g111111111"
+    }, {
+      "id": "3afe9615-d496-45cd-88b2-3b940fb35f61",
+      "comment": "",
+      "command": "click",
+      "target": "css=button",
+      "targets": [
+        ["css=button", "css:finder"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Проверить')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1907e68d-6685-4868-9b74-84ff2d6fdaf3",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.ng-binding:nth-child(6)",
+      "targets": [
+        ["css=.ng-binding:nth-child(6)", "css:finder"],
+        ["xpath=//label[2]", "xpath:position"],
+        ["xpath=//label[contains(.,'НЕТ')]", "xpath:innerText"]
+      ],
+      "value": "НЕТ"
+    }]
   }],
   "suites": [{
     "id": "248c59de-c879-437f-8370-85bd114798fe",
